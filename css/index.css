@@ -1,0 +1,93 @@
+/* 
+    Theo Neusser
+    IDA-P3C
+    15.01.2024
+    index.css
+*/
+body {
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+header * {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#start-btn:hover {
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+CSS taken off of 
+
+https://codepen.io/jemware/
+
+*/
+#start-btn {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+#start-btn {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFA12B;
+    display: block;
+    position: relative;
+    padding: 20px 40px;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+    -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#start-btn:active {
+    top: 10px;
+    background-color: #F78900;
+
+    -webkit-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+    box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+#start-btn:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    position: absolute;
+    bottom: -15px;
+    left: -4px;
+    z-index: -1;
+    background-color: #2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+

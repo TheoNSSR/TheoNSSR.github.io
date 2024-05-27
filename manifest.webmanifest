@@ -1,0 +1,13 @@
+{
+    "lang": "en",
+    "dir": "ltr",
+    "name": "Random Hello World PWA",
+    "description": "Says \"Hello World!\" in a random human language, on a random background color. It's a PWA, so you can try it in your browser, and add it to your home screen.",
+    "short_name": "Hello World",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#000000",
+    "background_color": "#1e90ff"
+}
