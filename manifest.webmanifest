@@ -9,5 +9,10 @@
     "display": "standalone",
     "orientation": "any",
     "theme_color": "#000000",
-    "background_color": "#1e90ff"
+    "background_color": "#1e90ff",
+    "icons": [{
+        "src": "./img/icon-256.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }]
 }
